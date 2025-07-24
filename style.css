@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+    background: linear-gradient(to bottom, #dbeeff, #517ea6);
+}
+h1 {
+    margin: 0;
+    font-size: 3.5em;
+    letter-spacing: 0.05em; /*Bring leters close to each other*/
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.title-text {
+  font-size: 1.5em;      /* Adjust size as needed */
+  letter-spacing: 0.1em; /* Optional: space between letters */
+  font-weight: 500;      /* Optional: weight of text */
+  margin: 0.5em 0;       /* Optional: space around text */
+  /*text-transform: uppercase; /* Optional: make all caps */
+  text-align: center;    /* Keep centered */
+}
+
+.dark-line {
+  border: none;
+  height: 2px;
+  background-color: #222; /* even darker gray/black */
+}
+
+.tight-section {
+  margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 2.15em;
+    /*padding-bottom: 1em;*/
+    margin-top: 0.2em;       /* space before the heading */
+    margin-bottom: 0.2em;  /* tighter space after the heading */
+}
+
+h3 {
+    font-size: 1.7em;
+    /*padding-bottom: 1em;*/
+    margin-top: 0.3em;       /* space before the heading */
+    margin-bottom: 0.2em;  /* tighter space after the heading */
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+}
+header {
+    text-align: center;
+    margin: auto 2em;
+}
+
+section {
+    margin: auto 1em 4em 2em;
+}
+
+i {
+    margin-right: .5em;
+}
+
+p {
+    font-size: 1.2em;
+    /*margin: .2em auto*/
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+h1, h2, h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 75px; /* space between image and name */
+  margin-left: 30px; /* shift whole header content to the right */
+}
+
+.header-container img {
+  width: 200px;        /* adjust as needed */
+  height: 200px;
+  border-radius: 10%; /* makes the photo round */
+  object-fit: cover;
+  margin-top: 25px; /* move image down */
+  /* or use margin-bottom: 10px; to move it up */
+}
+
+.header-container h1 { /*this part change the to header look*/
+  margin: 0;
+  font-size: 3.5em;
+  letter-spacing: 0.08em;
+  font-weight: bold;
+}
+.contact-item {
+  font-size: 0.95em;        /* Smaller or larger text */
+  color: #333;              /* Optional: text color */
+  margin-bottom: 0.3em;     /* Adjust spacing */
+}
+
+.contact-item a {
+  font-size: 1.2em;        /* Smaller or larger text */
+  text-decoration: none;    /* Remove underline */
+  color: #0073e6;           /* Link color */
+}
+
+.contact-item i {
+  font-size: 1.1em;         /* Icon size */
+  color: #555;              /* Icon color */
+  margin-right: 0.5em;
+}
